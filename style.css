@@ -1,0 +1,230 @@
+#l1{
+    font-size: 25px;
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont1{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 50px;
+
+    
+}
+#menubar,#cont{
+    display: flex;
+    flex-direction: row;
+   justify-content:  space-between;
+   align-items: center;
+   height: 50px;
+    
+}
+#second{
+    border: 2px solid;
+    height: 300px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.con{
+    height: 70px;
+    width: 500px;
+    color: aliceblue;
+    /* border: 2px solid white; */
+}
+#I{
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+#J{
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+.A{
+    text-align: top;
+    
+}
+#I{
+    font-size: 10px;
+}
+#J{
+    font-size: 30px;
+    
+}
+img{
+    height: 300px;
+    width: 250px;
+    
+    border-radius: 250%;
+    background-position: 1000px;
+    margin-left: 50px;
+    
+}
+.bio{
+    /*border: 2px solid;*/ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    padding-top: 50px;
+}
+.name{
+    font-size: 40px;
+}
+.download{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    position: relative;
+    top:20px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    background-color: orangered;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.port{
+    height: 450px;
+    width:100%;
+    background-image: url(images/images.png);
+    color:whitesmoke;
+    margin-top: -21px;
+}
+.mainport{
+    border-bottom: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#pb{
+    font-size: 30px;
+}
+.fbox{
+    background-color: white;
+    height:200px;
+    width:300px;
+    text-align:center;
+    border-radius: 20px;
+}
+.log1{
+    background-color: orangered;
+    border-radius: 100%;
+    width:30px;
+    justify-content: center;
+    margin-left: 5.5em;
+    font-size: 25px;
+
+}
+.sbox{
+    background-color: white;
+    height:200px;
+    width:300px;
+    text-align:center;
+    border-radius: 20px;
+}
+.log2{
+    background-color: orangered;
+    border-radius: 100%;
+    width:30px;
+    justify-content: center;
+    margin-left: 5.5em;
+    
+    font-size: 25px;
+
+}
+.tbox{
+    background-color: white;
+    height:200px;
+    width:300px;
+    text-align:center;
+    border-radius: 20px;
+}
+.log3{
+    background-color: orangered;
+    border-radius: 100%;
+    width:30px;
+    justify-content: center;
+    margin-left: 5.5em;
+    
+    font-size: 25px;
+
+}
+.box{
+    display: flex;
+  justify-content: space-evenly;
+}
+#h1{
+    color: black;
+}
+/* .skill,.skill1,.skill2{
+    border: 2px solid;
+} */
+.skill{
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skill1{
+    height: 40px;
+    font-size: 30px;
+    justify-content: center;
+    padding-left: 700px;
+
+}
+.skill2{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.right,.left{
+    height: 370px;
+    width: 500px;
+    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+.lang1{
+    margin-top: 20px;
+}
+.html,.css, .java, .js, .ang, .english, .tamil{
+    
+    height:10px;
+    margin-top: 10px;
+    background-color: grey;
+}
+.html1, .css1, .java1, .js1, .ang1, .english1,.tamil1{
+    background-color: #f1420c;
+    width:75%;
+    height: 10px;
+}
+.tech,.lang{
+   
+    width: 400px;
+    align-content: center;
+    font-size: 30px;
+    padding-left: 100px;
+}
